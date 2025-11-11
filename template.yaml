@@ -179,3 +179,10 @@ Resources:
       CatalogId: !Ref AWS::AccountId
       DatabaseInput:
         Name: ga4_content
+
+  Archive:
+    Type: AWS::Glue::Database
+    Properties:
+      CatalogId: !Ref AWS::AccountId
+      DatabaseInput:
+        Name: archive
